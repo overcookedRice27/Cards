@@ -1,12 +1,17 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.Assert;
+import org.junit.api.Test;
+
 public class CardTester {
 
-    @Test 
-    public 
-    //size tests
     CardDeck testDeck = new CardDeck();
-    assertEquals(52,testDeck.getDeckSize());
+
+    @Test 
+    public void testDeckCreation()
+    {
+        AssertEquals(52,testDeck.getDeckSize());
+    }
+    
+    
     
     
 }

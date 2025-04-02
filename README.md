@@ -1,1 +1,2 @@
 # Cards
+This repository contains the Card class and the CardDeck class. The DarkDeck class is meant to simulate how a real deck of cards works. It includes functions such as dealing a card, shuffling the entire deck, and collecting back dealt cards. The CardDeck class is meant to be used in future implementations of card games such as Poker and Blackjack in the future.

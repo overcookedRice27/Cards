@@ -40,7 +40,7 @@ public class Card
     @Override
     public String toString()
     {
-        return "Card face: " ;
+        return "Card face: " + face + "Card value: " + value+ "\n";
     }
 
 }
