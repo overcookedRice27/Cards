@@ -75,8 +75,8 @@ public class CardDeck
         List<Card> secondHalf = deck.subList(26, deck.size());
 
         //creates a random value to make mathematically imperfect shuffle
-        double rand = Math.ceil(Math.random())+1.0;
-        for(int i=(int)Math.ceil(Math.random());i<DEFAULT_SIZE;i+=rand)
+        double rand = Math.round(Math.random())+1.0;
+        for(int i=(int)Math.round(Math.random());i<DEFAULT_SIZE;i+=rand)
             firstHalf.add(i,secondHalf.remove(i));
 
         //if the second half of deck isn't empty, add remianing cards to bottom of deck
